@@ -22,6 +22,7 @@ flake8 .
 
 echo "Checking Python types..."
 mypy src
+mypy tests
 
 echo "Running static analysis on code..."
 semgrep --config=auto src
